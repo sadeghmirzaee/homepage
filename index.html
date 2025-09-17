@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sadegh Mirzaee</title>
+  <meta name="description" content="personal homepage.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1>Sadegh Mirzaee</h1>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="site-main container">
+    <section id="about" class="card">
+      <h2>About</h2>
+      <p>I am Sadegh and this is my homepage where you can find more about some of my projects and my interests.</p>
+    </section>
+
+    <section id="projects" class="card">
+      <h2>Projects</h2>
+      <ul>
+        <li><a href="https://sadeghmirzaee.github.io/ModelSpace/">Model Space</a></li>
+        <li><a href="+"></a>Darwin's Letters</a></li>
+        <li>SCoT Visualization</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="card">
+      <h2>Contact</h2>
+      <p>Visit my <a href="https://orcid.org/0000-0003-4854-0199">ORCID</a> or send an email to <a href="mailto:sadegh_mirzaee@yahoo.com">sadegh_mirzaee@yahoo.com</a>.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© <span id="year"></span> Sadegh Mirzaee</small>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
